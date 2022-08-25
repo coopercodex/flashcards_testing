@@ -19,7 +19,6 @@ beforeEach(() => {
   card2 = new Card(3, 'What type of prototype method directly modifies the existing array?', ['object', 'array', 'function'], 'object');
   card3 = new Card(4, 'What type of prototype method does not modify the existing array but returns a particular representation of the array?', ['mutator method', 'accessor method', 'iteration method'], 'mutator method');
   turn1 = new Turn('array', card1);
-  // turn2 = new Turn('object', card2);
   deck1 = new Deck([card1, card2, card3]);
   round1 = new Round(deck1);
 
@@ -44,7 +43,7 @@ it('should update turn count', () => {
 
   round1.takeTurn('object');
 
-  expect(round1.turn).to.equal(1);
+  expect(round1.turns).to.equal(1);
 });
 
 it('should update card to be next card', () => {
@@ -55,6 +54,26 @@ it('should update card to be next card', () => {
   expect(round1.returnCurrentCard()).to.eql(card2)
 });
 
+it('should give feedback on users answer', () => {
+
+  expect(round1.takeTurn('array')).to.equal('incorrect!')
+  expect(round1.takeTurn('object')).to.equal('correct!')
+});
+
+it('should return percent of correct answers', () => {
+
+  round1.takeTurn('object');
+  expect(round1.calculatePercentCorrect()).to.equal(100)
+  round1.takeTurn('array');
+  expect(round1.calculatePercentCorrect()).to.equal(50)
+  round1.takeTurn('mutator method');
+  expect(round1.calculatePercentCorrect()).to.equal(66)
+});
+
+it('should provide a message and percent correct when ending the round', () => {
+  
+  expect(round1.endRound()).to.equal(`** Round over! ** You answered ${round1.calculatePercentCorrect()}% of the questions correctly!`)
+});
 
 
 
