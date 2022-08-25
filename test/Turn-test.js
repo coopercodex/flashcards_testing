@@ -34,7 +34,7 @@ it('should return a guess', () => {
 it('should return a card', () => {
   var e = turn1.returnCard();
 
-  expect(e).to.equal(card1);
+  expect(e).to.eql(card1);
 });
 
 it('should evaluate guess', () => {
