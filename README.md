@@ -16,11 +16,7 @@ Hey welcome to flashcards game that you can play freely on the terminal.  In thi
 
 
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/105816411/186790714-3ca102ea-804f-4396-9e5a-ba7a2f300709.png)
 
 
 
