@@ -1,10 +1,39 @@
 # FlashCards Starter Kit
 
-## Fork This Repo
+## Table Of Contents
+  - [Introduction](#introduction)
+  - [Page Demo](#page-demo)
+  - [Technologies](#technologies)
+  - [Set Up](#set-up)
+
+
+## Introduction
+
+Hey welcome to flashcards game that you can play freely on the terminal.  In this project i implemented alot of javascript!  I advanced my understanding of testing through use of testing using Mocha and Chai as well to make a fully playable game.
+
+
+## Page Demo
+
+
+
+
+
+
+
+
+
+
+
+## Technologies
+
+- Javascript
+- Mocha and Chai
+
+
+## Setup
 
 On the top right corner of this page, click the **Fork** button.
 
-## Setup
 
 Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
 
