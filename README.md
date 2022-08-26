@@ -14,9 +14,9 @@ Hey welcome to flashcards game that you can play freely on the terminal.  In thi
 
 ## Page Demo
 
+https://media2.giphy.com/media/a6ZZvLzQ6CROvGsjGK/giphy.gif?cid=790b7611d7bfe84ee2d54ee88682a8fcd75381a1ed9d4918&rid=giphy.gif&ct=g
 
 
-![image](https://user-images.githubusercontent.com/105816411/186790714-3ca102ea-804f-4396-9e5a-ba7a2f300709.png)
 
 
 
