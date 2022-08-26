@@ -26,7 +26,7 @@ Hey welcome to flashcards game that you can play freely on the terminal.  In thi
 - Mocha and Chai
 
 
-## Setup
+## Set up
 
 On the top right corner of this page, click the **Fork** button.
 
